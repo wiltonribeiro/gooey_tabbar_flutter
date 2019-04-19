@@ -193,6 +193,16 @@ class _MenuTabBar extends State<MenuTabBar> with TickerProviderStateMixin {
          ])
     ]);
   }
+
+
+  @override
+  void dispose() {
+    _isActivated.close();
+    _positionButton.close();
+    _opacity.close();
+    super.dispose();
+  }
+  
 }
 
 
