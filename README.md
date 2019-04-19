@@ -1,16 +1,26 @@
-# menu_tabbar
+# Menu Tab Bar Flutter
+Flutter component concept created with [Flutter](https://flutter.dev/) using Dart programming language, inspired by [Gooey Rab Bar](https://dribbble.com/shots/6233130-Gooey-Tab-Bar). 
 
-A new Flutter application.
+## About
+This component was created inspired by the GIF at the end of this page. The component is using Animations, Clip Path, Transform and Stream's with RxDart proprieties to better simulate the inspiration GIF.
 
-## Getting Started
+### The Constructor Data Fields
+````dart
+final Widget child; // Hidden menu
+final Color colorMenuIconDefault; // Main icon color when not pressed
+final Color colorMenuIconActivated; // Main icon color when activated
+final Color backgroundMenuIconDefault; // Main background icon when not pressed
+final Color backgroundMenuIconActivated;// Main background icon when activated
+final Color background; // Background color
+final List<IconButton> iconButtons; //Tab bar icons
+````
+    
+### The Inspiration
+The GIF below shows the inspiration component.
 
-This project is a starting point for a Flutter application.
+![App Running](./docs/inspiration.gif)
 
-A few resources to get you started if this is your first Flutter project:
+### The App
+The GIF below shows this current component running.
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+![App Running](./docs/app_running.gif)
