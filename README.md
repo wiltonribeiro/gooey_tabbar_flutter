@@ -1,5 +1,5 @@
-# Menu Tab Bar Flutter
-Flutter component concept created with [Flutter](https://flutter.dev/) using Dart programming language, inspired by [Gooey Rab Bar](https://dribbble.com/shots/6233130-Gooey-Tab-Bar). 
+# Gooey Tab Bar Flutter
+Flutter component concept created with [Flutter](https://flutter.dev/) using Dart programming language, inspired by [Gooey Tab Bar](https://dribbble.com/shots/6233130-Gooey-Tab-Bar). 
 
 ## About
 This component was created inspired by the GIF at the end of this page. The component is using Animations, Clip Path, Transform and Stream's with RxDart proprieties to better simulate the inspiration GIF.
