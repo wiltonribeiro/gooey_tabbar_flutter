@@ -170,8 +170,10 @@ class _MenuTabBar extends State<MenuTabBar> with TickerProviderStateMixin {
                       return new Padding(padding: EdgeInsets.only(bottom: snapshot.data), child:
                         new StreamBuilder(stream: _isActivated.stream, builder: (context, AsyncSnapshot snapshot){
                           return new FloatingActionButton(elevation: 0, onPressed: (){
-                            if(_isActivated.stream.value == 1) _moveButtonDown();
-                            else {
+                            _updateButtonPosition(0);
+                            if(_isActivated.stream.value == 1) {
+                              _moveButtonDown();
+                            } else {
                               _moveButtonUp();
                             }
                           }, child:
